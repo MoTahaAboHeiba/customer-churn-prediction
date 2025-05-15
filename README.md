@@ -33,4 +33,16 @@ This project focuses on developing a predictive model to identify customers who 
   - docker-compose up
 4. Access the application by navigating to:
   - http://localhost:8501
+
+
+**Project Team**
+* Mohamed Taha Hassan
+
+* Hamdi Saad Hamed
+
+* Mohamed Farag
+
+* Mohamed Ali AbdulNabi Ali
+
+* Mohamed Mohsen Awadullah
   
