@@ -25,7 +25,6 @@ This project focuses on developing a predictive model to identify customers who 
 ## Setup Instructions
 
 1. Clone the repository:  
-```bash
 git clone https://github.com/MoTahaAboHeiba/customer-churn-prediction.git
 cd customer-churn-prediction
 2. Build the Docker image :
