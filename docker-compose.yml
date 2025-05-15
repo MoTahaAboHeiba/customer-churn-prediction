@@ -1,0 +1,17 @@
+
+services:
+  churn_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"  # Streamlit port
+    volumes:
+      - ./Model_Data.csv:/app/Model_Data.csv  # Mount CSV file into container (optional)
+    networks:
+      - churn_network
+    restart: unless-stopped
+
+networks:
+  churn_network:
+    driver: bridge
